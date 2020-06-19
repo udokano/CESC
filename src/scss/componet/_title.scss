@@ -1,0 +1,83 @@
+/* 上下がボーダーつきの見出し */
+
+.c-ttl-border {
+    text-align: center;
+    margin-bottom: 3.8125rem;
+
+    @media (max-width: 767px) {
+        margin-bottom: 2.5rem;
+    }
+
+    &--insta {
+        @media (max-width: 767px) {
+            margin-bottom: 2.3rem;
+        }
+    }
+
+    &__text {
+        display: inline-block;
+        background: url(../img/top/tit_bg_line_blue.png) repeat-x 0% (100% / auto) 100%;
+        padding: 1.5625rem 5.1875rem;
+        letter-spacing: 0.1em;
+        font-family: $min;
+        font-size: 2rem;
+        line-height: 1;
+        color: #2880c3;
+
+        &--insta {
+            background-image: url(../img/top/tit_bg_line_gray.png);
+            color: #2880c3;
+            font-family: a-otf-ryumin-pr6n, serif;
+            color: #454545;
+            padding: 1.75rem 0;
+            padding-left: 7.75rem;
+            padding-right: 6.0625rem;
+            position: relative;
+            vertical-align: middle;
+            font-size: 1.875rem;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 1.4375rem;
+                height: 1.4375rem;
+                left: 4.75rem;
+                top: 50%;
+                transform: translateY(-50%);
+                background: url(../img/common/c_icon_insta.png) no-repeat 50% 50% / 100% auto;
+            }
+        }
+    }
+}
+
+/* 四角に囲まれた見出し */
+
+.c-square-text {
+    display: inline-block;
+    border: 1px solid;
+    line-height: 1;
+    padding: .5rem 0.625rem;
+    font-size: .8rem;
+    text-align: center;
+    color: #fff;
+
+    &--bd_color_white {
+        border-color: #fff;
+        color: #fff;
+    }
+}
+
+/* 円に囲まれた文字 */
+
+.c-circle-text {
+    width: 44px;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 50%;
+    text-align: center;
+    color: #fff;
+
+    &--bg_light_pink {
+        background-color: $light-pink;
+    }
+}

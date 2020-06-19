@@ -1,0 +1,38 @@
+/* 垂直でタイトルがベタ塗りのボックス */
+
+.c-col-desc-box {
+    line-height: 1;
+
+    &__ttl {
+        text-align: center;
+        color: #fff;
+        padding: 1rem 0;
+
+        &--bg_blue {
+            background-color: #3a78a5;
+        }
+    }
+
+    &__desc {
+        padding: 1.9375rem 1.8125rem;
+        background-color: #fff;
+    }
+}
+
+/* 2カラムのボックス */
+
+.c-row02-box {
+    display: flex;
+
+    @media (max-width: 767px) {
+        flex-flow: column;
+    }
+
+    &__right {
+        width: 40%;
+    }
+
+    &__left {
+        width: 50%;
+    }
+}

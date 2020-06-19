@@ -1,0 +1,250 @@
+.p-single-tit {
+    margin-bottom: 1.9375rem;
+    display: flex;
+    justify-content: space-between;
+    height: 176px;
+
+    @media (max-width: 767px) {
+        height: 38vw;
+    }
+
+    &__left {
+        background-color: #f7f7f7;
+        height: 100%;
+        padding-top: 2.725rem;
+        padding-left: 3.125rem;
+        width: 60%;
+
+        @media (max-width: 767px) {
+            padding-top: 3.98rem;
+            padding-left: 2.5rem;
+            padding-right: .99rem;
+        }
+    }
+
+    &__number {
+        font-size: 1.5rem;
+        color: #2880c3;
+        opacity: .48;
+        line-height: 1;
+        margin-bottom: 0.875rem;
+
+        &::first-letter {
+            font-size: 1.8125rem;
+        }
+    }
+
+    &__text {
+        font-size: 1.5625rem;
+    }
+
+    &__thumb {
+        width: 40%;
+        opacity: .39;
+    }
+}
+
+.p-single-header-img {
+    height: 432px;
+    margin-bottom: 0.875rem;
+
+    @media (max-width: 767px) {
+        height: 62vw;
+    }
+}
+
+/* 本文スタイル */
+
+.p-single-answer-text {
+    line-height: 1.56;
+    font-size: 1.20rem;
+    margin-bottom: 3.8125rem;
+    text-align: justify;
+
+    @media (max-width: 767px) {
+        line-height: 1.56;
+        font-size: 1.55rem;
+    }
+}
+
+.p-single-answer-row02 {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+        flex-flow: column;
+    }
+
+    &__text {
+        width: 545px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            margin-bottom: 1.789rem;
+        }
+    }
+
+    &__thumb {
+        width: 360px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+
+        &--medium {
+            @media (min-width: 768px) {
+                width: 420px;
+                margin-left: 1.2rem;
+            }
+        }
+
+        &--large {
+            @media (min-width: 768px) {
+                width: 487px;
+                margin-left: 1.8rem;
+            }
+        }
+    }
+}
+
+.p-single-answer {
+    position: relative;
+    margin-bottom: 0.65rem;
+
+    &__tit {
+        color: #fb8fa6;
+        font-size: 2.5rem;
+        position: relative;
+        background-color: #fff;
+        padding-right: 1.1rem;
+        display: inline-block;
+        z-index: 5000;
+    }
+
+    &::after {
+        position: absolute;
+        content: "";
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #fb8fa6;
+    }
+}
+
+.p-single-other {
+    position: relative;
+
+    &__thumb {
+        width: 88%;
+        max-width: 386px;
+        margin-left: auto;
+        margin-right: auto;
+
+        @media (min-width: 768px) {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        @media (max-width: 767px) {
+            margin-bottom: 1.5rem;
+        }
+    }
+
+    &__right {
+        width: 100%;
+        max-width: 577px;
+
+        @media (min-width: 768px) {
+            padding-left: 413px;
+            box-sizing: content-box;
+        }
+    }
+}
+
+.p-under-img {
+    margin-top: 1.75rem;
+}
+
+.p-single-other-box {
+    text-align: right;
+    position: relative;
+    margin-bottom: 1.125rem;
+
+    &__tit {
+        position: relative;
+        z-index: 500;
+        padding-left: 1rem;
+        background-color: #fff;
+        font-size: 1.125rem;
+        display: inline-block;
+
+        @media (max-width: 767px) {
+            font-size: 1.38rem;
+        }
+    }
+
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: #666;
+    }
+}
+
+.p-single-other-desc {
+    text-align: justify;
+
+    @media (max-width: 767px) {
+        line-height: 1.68;
+        font-size: 1.24rem;
+    }
+}
+
+.p-btn-faq_to_list {
+    width: 68%;
+    max-width: 254px;
+    margin: 5.3125rem auto 0;
+    display: block;
+    font-size: 1.125rem;
+
+    @media (max-width: 767px) {
+        font-size: 1.35rem;
+    }
+}
+
+.p-faq-btn {
+    text-align: center;
+
+    @media (max-width: 767px) {
+        margin-top: 2.5rem;
+    }
+
+    &__item {
+        display: inline-block;
+        background-color: #4abc8e;
+        border-radius: 3px;
+        height: 63px;
+        line-height: 63px;
+        width: 39%;
+        max-width: 220px;
+        margin: 0 .8rem;
+
+        @media (max-width: 767px) {
+            height: 12.9vw;
+            line-height: 12.9vw;
+        }
+    }
+
+    &__link {
+        display: block;
+        color: #fff;
+        font-size: 1.18rem;
+        text-align: center;
+    }
+}

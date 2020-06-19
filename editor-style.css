@@ -1,0 +1,168 @@
+/* reset & set
+-------------------------------------------------- */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    font-style: inherit;
+    border: 0;
+    outline: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+a img:hover,
+a:hover {
+    opacity: 0.8;
+}
+
+li img {
+    display: block;
+}
+
+a img {
+    border-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/*===================
+HTML5 BLOCK
+=====================================*/
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+/* 基本スタイル */
+
+body {
+    color: #666;
+    font-family: "ヒラギノ角ゴ StdN", "Hiragino Kaku Gothic StdN", "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", "ヒラギノ角ゴシック", "Hiragino Sans", YuGothic, "Yu Gothic", "メイリオ", Meiryo, sans-serif;
+}
+
+html {
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+/* 文章段落 */
+
+p {
+    margin-bottom: 1em;
+    font-size: 1.20rem;
+    line-height: 1.9;
+}
+
+/* テキストカラー */
+
+.u-under-pink {
+    color: #fb2c5f;
+    text-decoration: underline;
+}
+
+.u-under-blue {
+    color: #2880c3;
+    text-decoration: underline;
+}
+
+.u-under-line {
+    text-decoration: underline;
+}
+
+.c-blue {
+    color: #2880c3;
+}
+
+.c-pink {
+    color: #fb2c5f;
+}
+
+/* 表示・非表示 */
+
+.u-sp-only {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .u-pc-only {
+        display: none;
+    }
+}

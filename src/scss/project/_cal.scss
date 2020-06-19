@@ -1,0 +1,58 @@
+/* カレンダー設定 */
+
+/* 一番上の余計な隙間消す */
+
+.xo-event-calendar table.xo-month .month-dayname td {
+    vertical-align: top;
+}
+
+/* スマホだとセルが小さいので少し拡大 */
+
+.xo-event-calendar table.xo-month .month-week {
+    @media (max-width: 767px) {
+        padding: .74rem 0 !important;
+    }
+}
+
+/* タイトルの文字列拡大 */
+
+.xo-event-calendar table.xo-month .month-header > span {
+    @media (max-width: 767px) {
+        font-size: 1.6rem !important;
+    }
+}
+
+/* 一旦前後のつきのページ送り非表示 */
+
+/* .xo-event-calendar table.xo-month button {
+    display: none;
+} */
+
+/* レイアウト */
+
+.xo-months {
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 767px) {
+        flex-flow: column;
+    }
+}
+
+.xo-month-wrap {
+    width: 420px;
+    margin: 0 1.2rem;
+
+    @media (max-width: 767px) {
+        width: 100%;
+        margin: 0 0 1.25rem;
+
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+}
+
+.holiday-titles {
+    text-align: center;
+}

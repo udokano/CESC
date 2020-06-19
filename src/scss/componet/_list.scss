@@ -1,0 +1,39 @@
+/* 丸いサムネイルのリスト */
+
+.c-circle-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    &__item {
+        width: 24%;
+        margin-bottom: 1.5rem;
+    }
+
+    &__img {
+        width: 94%;
+        margin: 0 auto 1.2rem;
+    }
+
+    &__caption {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+}
+
+.c-thumb-under-text-list {
+    display: flex;
+
+    &__item {
+        width: 30%;
+    }
+
+    &__thumb {
+        width: 100%;
+        margin-bottom: 1.2rem;
+    }
+
+    &__caption {
+        font-size: 1.12rem;
+    }
+}

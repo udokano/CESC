@@ -1,0 +1,10 @@
+.c-copy {
+    text-align: center;
+    font-size: 12px;
+    letter-spacing: .1em;
+    line-height: 1;
+
+    @media (max-width: 767px) {
+        font-size: 8px;
+    }
+}

@@ -1,0 +1,21 @@
+.l-sec-right {
+    margin: 0 0 0 auto;
+    width: 76.5%;
+    max-width: 1400px;
+
+    @media screen and (min-width: 1400px) {
+        width: calc( 100% - 300px);
+    }
+}
+
+.l-about {
+    margin-bottom: 3.375rem;
+}
+
+.l-factor {
+    margin-bottom: 9.0625rem;
+}
+
+.l-faq {
+    margin-bottom: 9.0625rem;
+}
