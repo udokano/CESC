@@ -140,6 +140,7 @@
         <li class="p-header-nav__item"> <a href="https://souki-kai.or.jp/pdf/under18.pdf" class="p-header-nav__link" target="_blank">未成年同意書</a> </li>
       </ul>
     </nav>
+    <!-- ./p-header-nav -->
     <div class="p-header-btns"> <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-btn-cal-pages" target="_blank"> <span class="u-pc-only">カウンセリング予約</span> <span class="u-sp-only">WEB予約</span> </a>
       <button class="c-btn-trigger" id="js-drawer">
       <div class="c-btn-trigger__inner"> <span></span> <span></span> <span></span> </div>
