@@ -129,6 +129,8 @@
     <div class="p-logo"> <a href="<?php echo home_url( '/' ); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/common/c_site_logo.svg" alt="眼瞼下垂クリニック"> </a> </div>
     <!-- ./p-logo -->
 
+
+
     <nav class="p-header-nav" id="js-nav">
       <ul class="p-header-nav__list u-flex u-a-otf">
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-about" class="p-header-nav__link">眼瞼下垂とは</a> </li>
