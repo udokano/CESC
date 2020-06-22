@@ -1,6 +1,10 @@
 .l-wrapper {
     width: 100%;
     position: relative;
+
+    @media (max-width: 767px) {
+        min-height: 100%;
+    }
 }
 
 .l-col02-fv {

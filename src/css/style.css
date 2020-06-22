@@ -368,6 +368,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
+  .l-wrapper {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
   .l-col02-fv {
     -ms-flex-flow: column;
     -webkit-box-direction: normal;
@@ -774,7 +780,7 @@ ARROW
   .c-hamburger {
     background-color: #2880c3;
     border-radius: 50%;
-    bottom: 45px;
+    bottom: 80px;
     display: block;
     height: 51px;
     position: fixed;
