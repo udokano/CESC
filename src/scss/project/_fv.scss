@@ -269,6 +269,13 @@
             margin: 0 auto;
         }
     }
+
+    &--mail {
+        @media (max-width: 767px) {
+            background: #acacac url(../img/common/c_icon_top_mail.svg) no-repeat 89% 50% / 2.18rem auto !important;
+            padding-right: 1.68rem;
+        }
+    }
 }
 
 .p-nav-text {
