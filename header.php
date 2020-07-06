@@ -15,6 +15,15 @@
 <title>
 <?php the_title(); ?>
 </title>
+<!-- Global site tag (gtag.js) - Google Ads: 824377490 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-824377490"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-824377490');
+</script>
 <script>
   (function(d) {
     var config = {
@@ -28,6 +37,7 @@
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/src/css/style.css?<?php echo filemtime( get_stylesheet_directory() . '/src/css/style.css'); ?>">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 <?php wp_head();?>
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -35,9 +45,21 @@
 <?php if ( is_home() || is_front_page() ) : ?>
 <header class="l-top-header p-top-header">
   <div class="l-top-header-inner">
-    <div class="p-top-logo"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/common/c_top_logo.png" alt="眼瞼下垂クリニック"> </div>
+    <div class="p-top-logo">
+      <img src="<?php echo get_template_directory_uri(); ?>/src/img/common/c_top_logo.png" alt="眼瞼下垂クリニック">
+          <button class="p-top-menu-switch c-btn-trigger u-sp-display" id="js-top-menu-switch">
+            <div class="p-top-menu-switch__inner-wrap">
+                  <div class="c-btn-trigger__inner p-top-menu-switch__inner">
+                      <span></span>
+                      <span></span>
+                      <span></span>
+                </div>
+                <!-- ./p-top-menu-switch__inner -->
+            </div>
+            <!-- ./p-top-menu-switch__inner-wrap -->
+          </button>
+    </div>
     <!-- ./p-top-logo -->
-
     <div class="p-fv-cach">
       <!--  <p class="p-fv-cach__text">当院の眼瞼下垂治療</p>
                         <div class="p-fv-prices u-flex u-align-cent">
@@ -77,7 +99,7 @@
           <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-top-btn p-top-btn--cal" target="_blank">カウンセリング予約</a>
           </li>
           <li class="p-top-conversion__item">
-           <a href="https://souki-kai.or.jp/contact/index.php" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a>
+           <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a>
           </li>
         </ul>
         <div class="p-sp-tel u-sp-display">
@@ -136,7 +158,7 @@
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-flow" class="p-header-nav__link">費用・流れ</a> </li>
         <li class="p-header-nav__item"> <a href="<?php echo get_post_type_archive_link("faq"); ?>" class="p-header-nav__link">よくあるご質問</a> </li>
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-access" class="p-header-nav__link">アクセス</a> </li>
-        <li class="p-header-nav__item"> <a href="https://souki-kai.or.jp/contact/index.php" class="p-header-nav__link" target="_blank">お問合せ</a> </li>
+        <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="p-header-nav__link" target="_blank">お問合せ</a> </li>
         <li class="p-header-nav__item"> <a href="https://souki-kai.or.jp/pdf/under18.pdf" class="p-header-nav__link" target="_blank">未成年同意書</a> </li>
       </ul>
     </nav>

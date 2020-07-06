@@ -10,6 +10,15 @@ $(function () {
 
 });
 
+//ハンバーガー トップ ヘッダーのみ
+$(function () {
+  $("#js-top-menu-switch").on("click", function () {
+    $("#js-menu-trigger").toggleClass("is-menu-open");
+    $("#js-menu").toggleClass("is-menu-show");
+  });
+
+});
+
 //下層
 $(function () {
   $("#js-drawer").on("click", function () {
@@ -68,51 +77,7 @@ $('.js-link').on('click', function (e) {
 })
 
 
-//TOP PAGE MENU ANCHOR HOVER
 
-$(".js-anchor.anchor-menu01 span").mouseover(
-  function () {
-    if (!$(this).hasClass("is-select")) {
-      $(".js-anchor.anchor-menu01 span").not(this).removeClass("is-select");
-      $(this).addClass("is-select");
-    }
-  }
-);
-
-$(".js-anchor.anchor-menu02 span").mouseover(
-  function () {
-    if (!$(this).hasClass("is-select")) {
-      $(".js-anchor.anchor-menu02 span").not(this).removeClass("is-select");
-      $(this).addClass("is-select");
-    }
-  }
-);
-
-$(".js-anchor.anchor-menu03 span").mouseover(
-  function () {
-    if (!$(this).hasClass("is-select")) {
-      $(".js-anchor.anchor-menu03 span").not(this).removeClass("is-select");
-      $(this).addClass("is-select");
-    }
-  }
-);
-$(".js-anchor.anchor-menu04 span").mouseover(
-  function () {
-    if (!$(this).hasClass("is-select")) {
-      $(".js-anchor.anchor-menu04 span").not(this).removeClass("is-select");
-      $(this).addClass("is-select");
-    }
-  }
-);
-
-$(".js-anchor.anchor-menu05 span").mouseover(
-  function () {
-    if (!$(this).hasClass("is-select")) {
-      $(".js-anchor.anchor-menu05 span").not(this).removeClass("is-select");
-      $(this).addClass("is-select");
-    }
-  }
-);
 
 //TOP__PAGE__slide
 

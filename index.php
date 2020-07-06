@@ -19,13 +19,7 @@
       <li class="p-list-center__item"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/about_thumb02.png" alt="正常"> </li>
     </ul>
     <p class="p-center-desc u-sp-mb0">眼瞼下垂（がんけんかすい）とは、<br class="u-sp-only">
-      まぶた（瞼）が開きにくくなる病気です。<br>
-      先天的な原因や眼の病気、加齢、<br class="u-sp-only">
-      過剰なまぶたへの刺激などで、まぶたを<br>
-      持ち上げる筋肉（眼瞼挙筋）の機能が弱くなったり、<br class="u-sp-only">
-      緩むことで眼瞼下垂が起こります。<br>
-      眼瞼下垂は手術によって治療することができますので、<br class="u-sp-only">
-      お悩みの方は一度ご相談ください。</p>
+      まぶた（瞼）が開きにくくなる病気です。<br>先天的な原因や眼の病気、加齢、<br class="u-sp-only">過剰なまぶたへの刺激などで、まぶたを<br>持ち上げる筋肉（眼瞼挙筋）の機能が弱くなったり、<br class="u-sp-only">緩むことで眼瞼下垂が起こります。<br>眼瞼下垂は手術によって治療することができますので、<br class="u-sp-only">お悩みの方は一度ご相談ください。</p>
   </div>
 </section>
 <section class="l-section p-top-trouble">
@@ -34,23 +28,19 @@
     <ul class="c-circle-list p-trouble-list">
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb01.png" alt="左右の目の大きさが違う"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">左右の目の<br class="u-sp-only">
-          大きさが違う</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">左右の目の<br class="u-sp-only">大きさが違う</p>
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb02.png" alt="額のシワが目立つようになった"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">額のシワが<br class="u-sp-only">
-          目立つようになった</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">額のシワが<br class="u-sp-only">目立つようになった</p>
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb03.png" alt="慢性的な頭痛やおでこの疲労を感じる"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">慢性的な頭痛や<br>
-          おでこの疲労を感じる</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">慢性的な頭痛や<br>おでこの疲労を感じる</p>
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb04.png" alt="まぶたが下がって重たく感じる"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">まぶたが下がって<br class="u-sp-only">
-          重たく感じる</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">まぶたが下がって<br class="u-sp-only">重たく感じる</p>
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb05.png" alt="額のシワが目立つようになった"> </div>
@@ -58,18 +48,13 @@
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb06.png" alt="慢性的な頭痛やおでこの疲労を感じる"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">以前より目が<br class="u-sp-only">
-          小さくなった気がする</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">以前より目が<br class="u-sp-only">小さくなった気がする</p>
       </li>
       <li class="c-circle-list__item  p-trouble-list__item">
         <div class="c-circle-list__img  p-trouble-list__img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/trouble_thumb07.png" alt="まぶたが下がって重たく感じる"> </div>
-        <p class="c-circle-list__caption  p-trouble-list__caption">眉毛と目の間隔が<br>
-          広くなったように感じる</p>
+        <p class="c-circle-list__caption  p-trouble-list__caption">眉毛と目の間隔が<br>広くなったように感じる</p>
       </li>
-      <li class="c-red p-trouble-list__note">上記のような症状でお悩みの方は<br class="u-sp-only">
-        眼瞼下垂の可能性があります。<br>
-        まずはお気軽にカウンセリングに<br class="u-sp-only">
-        お越しください。</li>
+      <li class="c-red p-trouble-list__note">上記のような症状でお悩みの方は<br class="u-sp-only">眼瞼下垂の可能性があります。<br>まずはお気軽にカウンセリングに<br class="u-sp-only">お越しください。</li>
     </ul>
     <dl class="c-col-desc-box p-ope-col-box">
       <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> <span class="c-square-text p-ope-sub c-square-text--bd_color_white">保険適用</span><span class="u-vt">挙筋前転術について</span> </dt>
@@ -77,8 +62,7 @@
         <div class="c-row02-box p-ope-row02-box">
           <div class="c-row02-box__right p-ope-row02-box__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/ope_Illust01.png?060825566" alt="挙筋前転術について"> </div>
           <!-- ./p-ope-row02-box__thumb -->
-          <p class="c-row02-box__left p-ope-row02-box__desc"> 後天性（加齢性眼瞼下垂、腱膜性眼瞼下垂）の場合であれば、手術で症状を改善させることが可能です。<br>
-            当院では、切開による『挙筋前転術』という手術法を用いて、力を入れることなく正常に瞼を開けられる状態にすることを、保険適用範囲のゴールとしております。 </p>
+          <p class="c-row02-box__left p-ope-row02-box__desc"> 後天性（加齢性眼瞼下垂、腱膜性眼瞼下垂）の場合であれば、手術で症状を改善させることが可能です。<br>当院では、切開による『挙筋前転術』という手術法を用いて、力を入れることなく正常に瞼を開けられる状態にすることを、保険適用範囲のゴールとしております。 </p>
         </div>
         <!-- ./p-ope-row02-box -->
       </dd>
@@ -164,7 +148,7 @@
 <div class="p-sp-only-actions u-sp-display">
   <ul class="p-top-conversion u-mb0">
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-top-btn p-top-btn--cal" target="_blank">カウンセリング予約</a> </li>
-    <li class="p-top-conversion__item"> <a href="https://souki-kai.or.jp/contact/index.php" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
+    <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
   </ul>
    <a href="<?php echo home_url( '/' ); ?>tel/ptosis.html" class="p-sp-tel__link p-sp-tel__link--pt02 u-tc" target="_blank">
             <p class="p-sp-tel__sub u-tc u-f-ryu">お電話でのお問い合わせ</p>
@@ -218,12 +202,12 @@
         <div class="p-doctor-desc__bg"></div>
         <div class="p-doctor-desc__inner">
           <div class="p-doctor-desc__deep_inner">
-            <p class="p-doctor-desc__text"> 地元北海道で十数年にわたり、眼瞼下垂、タトゥー除去、乳房再建、<br>
-              顔面外傷、熱傷、皮膚悪性腫瘍、先天性アザの治療などあらゆる疾患の<br>
-              治療に従事してきた、形成外科専門医。顔面神経麻痺の治療に関する<br>
-              研究で、医学博士号を取得。基礎となる知識、経験を身につけ、<br>
-              満を持して美容外科医として、この創輝会で新たなステージを<br>
-              スタートさせる。 </p>
+            <div class="p-doctor-desc__text-wrap">
+                   <p class="p-doctor-desc__text"> 地元北海道で十数年にわたり、眼瞼下垂、タトゥー除去、乳房再建、<br>顔面外傷、熱傷、皮膚悪性腫瘍、先天性アザの治療などあらゆる疾患の<br>治療に従事してきた、形成外科専門医。顔面神経麻痺の治療に関する<br>研究で、医学博士号を取得。基礎となる知識、経験を身につけ、<br>満を持して美容外科医として、この創輝会で新たなステージを<br>スタートさせる。 </p>
+
+            <p class="p-doctor-desc__text u-mb0">2018年10月より，仙台院で眼瞼下垂の保険診療が開始された。<br>美容的側面も配慮しながらの治療成績が評価され，<br>その後札幌院，池袋院でも眼瞼下垂治療を開始。<br>スタートから1年半で350症例以上の実績を積む。<br>この度，より多様性のあるニーズにも応えられるよう，<br>新宿に眼瞼下垂治療の専門クリニックをオープンさせた。</p>
+            </div>
+
           </div>
           <!-- ./p-doctor-desc__deep_inner -->
         </div>
@@ -260,17 +244,15 @@
   <div class="l-inner p-clinic-desc__inner">
     <div class="u-sp-only"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/pr_thumb_sp.jpg" alt="サムネイル"> </div>
     <div class="p-clinic-desc__text_area u-f-ryu">
-      <p class="p-clinic-desc__text"> 当院は眼瞼下垂の治療を「美容の観点」も取り入れて行っており、お顔のトータルなバランスを見ながら施術を行い、違和感のない自然な仕上がりになるよう心掛けております。<br>
-        また、「美容」と申しますと女性のイメージも強いですが、眼瞼下垂にお困りであれば性別や年齢問わずご相談いただけます。 </p>
-      <p class="p-clinic-desc__text u-mb0"> ご自身で判断が難しい場合なども含め、まずはお気軽にカウンセリングにお越しくださいませ。<br>
-        スタッフ一同、心よりご来院をお待ちしております。 </p>
+      <p class="p-clinic-desc__text"> 当院は眼瞼下垂の治療を「美容の観点」も取り入れて行っており、お顔のトータルなバランスを見ながら施術を行い、違和感のない自然な仕上がりになるよう心掛けております。<br>また、「美容」と申しますと女性のイメージも強いですが、眼瞼下垂にお困りであれば性別や年齢問わずご相談いただけます。 </p>
+      <p class="p-clinic-desc__text u-mb0"> ご自身で判断が難しい場合なども含め、まずはお気軽にカウンセリングにお越しくださいませ。<br>スタッフ一同、心よりご来院をお待ちしております。 </p>
     </div>
   </div>
 </div>
 <div class="p-sp-only-actions u-sp-display">
   <ul class="p-top-conversion u-mb0">
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-top-btn p-top-btn--cal" target="_blank">カウンセリング予約</a> </li>
-    <li class="p-top-conversion__item"> <a href="https://souki-kai.or.jp/contact/index.php" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
+    <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
   </ul>
   <a href="<?php echo home_url( '/' ); ?>tel/ptosis.html" class="p-sp-tel__link p-sp-tel__link--pt02 u-tc" target="_blank">
             <p class="p-sp-tel__sub u-tc u-f-ryu">お電話でのお問い合わせ</p>
@@ -286,19 +268,15 @@
     <h2 class="c-ttl-border c-ttl-border--blue "> <span class="c-ttl-border__text">アクセス方法</span> </h2>
     <div class="c-row02-box p-access-row">
       <div class="p-access-row__map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.405494845799!2d139.7013873152591!3d35.691637880191806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cda4bf96e15%3A0x26a39fcca68665f7!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yT5LiB55uu77yR77yXIOOCouOCq-ODjeODk-ODqw!5e0!3m2!1sja!2sjp!4v1591248737928!5m2!1sja!2sjp"  style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4053648396757!2d139.701385315259!3d35.6916410801919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc8db04f287841741!2z55y855685LiL5Z6C44Kv44Oq44OL44OD44Kv!5e0!3m2!1sja!2sjp!4v1593395672648!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       </div>
       <div class="p-access-row__info">
         <p class="p-access-row__address">〒160-0022　東京都新宿区新宿3-17-3 アカネビル 8F <br>
           TEL:0120-972-561 </p>
         <div class="p-access-row__train">
           <h3 class="p-access-row__train_ttl">公共機関</h3>
-          <p class="p-access-row__train_kind">JR新宿駅東口 徒歩3分、東京メトロ丸ノ内線 新宿駅 徒歩2分、<br class="u-pc-only">
-            東京メトロ丸ノ内線・副都心線・都営新宿線 新宿三丁目駅 徒歩1分、<br class="u-pc-only">
-            小田急線・京王線 新宿駅 徒歩4分</p>
-          <p class="p-access-row__sub_desc">新宿三丁目の名所、伊勢丹さんのお隣、ビックロさんの新宿通り<br class="u-pc-only">
-            を挟んで正面のビル8階にございます<br class="u-pc-only">
-            新宿三丁目駅から87m</p>
+          <p class="p-access-row__train_kind">JR新宿駅東口 徒歩3分、東京メトロ丸ノ内線 新宿駅 徒歩2分、<br class="u-pc-only">東京メトロ丸ノ内線・副都心線・都営新宿線 新宿三丁目駅 徒歩1分、<br class="u-pc-only">小田急線・京王線 新宿駅 徒歩4分</p>
+          <p class="p-access-row__sub_desc">新宿三丁目の名所、伊勢丹さんのお隣、ビックロさんの新宿通り<br class="u-pc-only">を挟んで正面のビル8階にございます<br class="u-pc-only">新宿三丁目駅から87m</p>
         </div>
       </div>
     </div>

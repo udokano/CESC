@@ -12,12 +12,64 @@
     @media (max-width: 767px) {
         background-color: #fff;
         padding: 1.89rem 0;
+        position: relative;
 
         img {
-            width: 69%;
+            width: 58%;
             display: block;
             margin-left: auto;
             margin-right: auto;
+            padding-right: 6.98rem;
+            box-sizing: content-box;
+        }
+    }
+}
+
+/* ヘッダー用のハンバーガーメニュー追加 */
+
+.p-top-menu-switch {
+    position: absolute;
+    right: .68rem;
+    top: 44%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    width: 5.2125rem;
+    height: 4.2125rem;
+    padding: .76rem 0;
+
+    &__inner-wrap {
+        position: relative;
+        height: 100%;
+
+        //padding: 0 .55rem;
+
+        &::after {
+            content: "メニュー";
+            position: absolute;
+            bottom: -1.78rem;
+            font-size: .98rem;
+            left: 50%;
+            transform: translateX(-50%);
+            color: $blue;
+            width: 100%;
+            display: block;
+            line-height: 1;
+        }
+    }
+
+    &__inner {
+        padding: 0 1.25rem;
+
+        span {
+            background-color: $blue;
+            border-radius: 0;
+            height: 3px;
+            width: 60%;
+
+            &:nth-of-type(2) {
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
         }
     }
 }

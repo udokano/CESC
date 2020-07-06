@@ -2174,13 +2174,66 @@ PC or SP displey
   .p-top-logo {
     background-color: #fff;
     padding: 1.89rem 0;
+    position: relative;
   }
   .p-top-logo img {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 69%;
+    padding-right: 6.98rem;
+    width: 58%;
   }
+}
+
+/* ヘッダー用のハンバーガーメニュー追加 */
+.p-top-menu-switch {
+  -webkit-transform: translateY(-50%);
+  background-color: transparent;
+  height: 4.2125rem;
+  padding: .76rem 0;
+  position: absolute;
+  right: .68rem;
+  top: 44%;
+  transform: translateY(-50%);
+  width: 5.2125rem;
+}
+
+.p-top-menu-switch__inner-wrap {
+  height: 100%;
+  position: relative;
+}
+
+.p-top-menu-switch__inner-wrap::after {
+  -webkit-transform: translateX(-50%);
+  bottom: -1.78rem;
+  color: #2880c3;
+  content: "メニュー";
+  display: block;
+  font-size: .98rem;
+  left: 50%;
+  line-height: 1;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.p-top-menu-switch__inner {
+  padding: 0 1.25rem;
+}
+
+.p-top-menu-switch__inner span {
+  background-color: #2880c3;
+  border-radius: 0;
+  height: 3px;
+  width: 60%;
+}
+
+.p-top-menu-switch__inner span:nth-of-type(2) {
+  -webkit-transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .p-fv-cach {
@@ -3596,7 +3649,7 @@ PC or SP displey
 
 @media (min-width: 768px) {
   .p-doctor-desc {
-    height: 300px;
+    height: 420px;
     position: relative;
     top: -370px;
   }
@@ -3659,6 +3712,7 @@ PC or SP displey
   font-size: 14px;
   letter-spacing: .025em;
   line-height: 1.79;
+  margin-bottom: 1.1rem;
 }
 
 @media (max-width: 767px) {
@@ -3695,6 +3749,7 @@ PC or SP displey
   letter-spacing: 0.025em;
   line-height: 2.14;
   margin-bottom: 2.8rem;
+  margin-top: 4.8rem;
   max-width: 677px;
   width: 100%;
 }
@@ -3704,6 +3759,7 @@ PC or SP displey
     font-size: 1.18rem;
     line-height: 1.78;
     margin-bottom: 2.7rem;
+    margin-top: 2.1rem;
   }
 }
 
