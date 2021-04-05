@@ -51,11 +51,13 @@ $(function () {
       var target = $(this).data('target');
       var modal = document.getElementById(target);
       $(modal).addClass("is-modal-open");
+      $("body").addClass("is-of-hidden");
       return false;
     });
   });
   $('.js-modal-close').on('click', function () {
     $('.js-modal').removeClass("is-modal-open");
+    $("body").removeClass("is-of-hidden");
     return false;
   });
 });

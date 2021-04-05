@@ -1018,10 +1018,14 @@ ARROW
 }
 
 .c-modal {
+  /* scrollにはしないことでスクロールの必要がないときはスクロールバーを表示させない */
+  -webkit-overflow-scrolling: touch;
   -webkit-transition: ease-in .3s;
   height: 100%;
   left: 0;
   opacity: 0;
+  overflow: hidden;
+  overflow-y: auto;
   position: fixed;
   top: 0;
   transition: ease-in .3s;
@@ -1034,7 +1038,8 @@ ARROW
   background-color: rgba(212, 233, 255, 0.68);
   height: 100%;
   left: 0;
-  position: absolute;
+  overflow: hidden;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 9998;
@@ -1043,9 +1048,7 @@ ARROW
 .c-modal__inner {
   -webkit-transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 110vw;
   left: 50%;
-  max-height: 698px;
   max-width: 600px;
   padding: 2.1rem;
   position: absolute;
@@ -1093,6 +1096,10 @@ ARROW
 .is-modal-open {
   opacity: 1;
   visibility: visible;
+}
+
+.is-of-hidden {
+  overflow: hidden;
 }
 
 .pagination {
@@ -2459,7 +2466,7 @@ PC or SP displey
 /* ナビ */
 .p-top-nav {
   background-color: #fff;
-  height: 745px;
+  height: 795px;
   padding: 26px 24px;
   width: 294px;
 }
@@ -2646,6 +2653,11 @@ PC or SP displey
   transition-delay: .6s;
 }
 
+.is-menu-show .p-nav-links__item:nth-of-type(7) {
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
+}
+
 @media (max-width: 767px) {
   .p-sp-tel__link {
     display: block;
@@ -2757,7 +2769,7 @@ PC or SP displey
     transition: ease-in .2s;
     visibility: hidden;
     width: 100%;
-    z-index: 5000;
+    z-index: 9000;
   }
 }
 
@@ -3491,6 +3503,8 @@ PC or SP displey
 @media (min-width: 768px) {
   .p-doctor-info__thumb {
     position: relative;
+    right: -21px;
+    top: -15px;
     z-index: 1000;
   }
 }
@@ -3574,7 +3588,7 @@ PC or SP displey
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  max-width: 325px;
+  max-width: 287px;
   width: 82%;
 }
 
@@ -3590,8 +3604,10 @@ PC or SP displey
     -ms-flex-order: 3;
     -webkit-box-ordinal-group: 4;
     margin-bottom: 2.5rem;
+    max-width: 80%;
     order: 3;
     padding: 0 1.25rem;
+    width: 100%;
   }
 }
 
@@ -3626,6 +3642,96 @@ PC or SP displey
   }
 }
 
+.p-doctor-awards {
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .p-doctor-awards {
+    left: 318px;
+    position: absolute;
+    top: 84px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards {
+    -ms-flex-order: 4;
+    -webkit-box-ordinal-group: 5;
+    margin: 0 auto 2.15rem;
+    order: 4;
+    width: 70%;
+  }
+}
+
+.p-doctor-awards__row {
+  -ms-flex-flow: column;
+  -ms-flex-pack: justify;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 48%;
+}
+
+.p-doctor-awards__row--right {
+  margin-right: .88rem;
+  width: 52%;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__row--right {
+    width: 39%;
+  }
+}
+
+.p-doctor-awards__row--left {
+  width: 49%;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__row--left {
+    width: 38%;
+  }
+}
+
+.p-doctor-awards__caption {
+  color: #bdbdbd;
+  font-size: .68rem;
+  margin-top: .55rem;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__caption {
+    font-size: .88rem;
+  }
+}
+
+.p-doctor-awards__right-img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.p-doctor-awards__left-img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.p-doctor-awards__left-img:first-of-type {
+  padding-bottom: .42rem;
+}
+
 .p-doctor-desc-outer {
   width: 100%;
 }
@@ -3633,7 +3739,7 @@ PC or SP displey
 @media (min-width: 768px) {
   .p-doctor-desc-outer {
     position: absolute;
-    top: 855px;
+    top: 858px;
   }
 }
 
@@ -3658,7 +3764,7 @@ PC or SP displey
 @media (max-width: 767px) {
   .p-doctor-desc {
     background-color: #eaeef2;
-    padding: 4.2rem 0;
+    padding: 4.2rem 3%;
     padding-left: 6%;
     width: 97%;
   }
@@ -3705,6 +3811,12 @@ PC or SP displey
 @media (max-width: 767px) {
   .p-doctor-desc__deep_inner {
     width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .p-doctor-desc__text-wrap {
+    padding-right: 1.85rem;
   }
 }
 
@@ -4043,4 +4155,8 @@ PC or SP displey
     font-size: .8rem;
     line-height: 1.28;
   }
+}
+
+.p-faq-top {
+  padding: 4.78rem 0;
 }

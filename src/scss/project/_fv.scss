@@ -264,7 +264,7 @@
     background-color: #fff;
     padding: 26px 24px;
     width: 294px;
-    height: 745px;
+    height: 795px;
 
     @media (min-width: 768px) {
         position: relative;
@@ -412,6 +412,10 @@
 
         &:nth-of-type(6) {
             transition-delay: .6s;
+        }
+
+        &:nth-of-type(7) {
+            transition-delay: .7s;
         }
     }
 }

@@ -75,7 +75,7 @@
                                       <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/fv_note_sp.png" alt="※切る手術(保険適応： 3割負担)の場合 ※上限負担金額は各保健資格内容により変動あり※初診料、再診料、術後の薬代などは別途費用となります。">
                                   </p>
                         </div> -->
-      <div class="p-fv-price-img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/fv_price.png" alt="当院の眼瞼下垂治療、保険適用、両目43,200円">
+      <div class="p-fv-price-img"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/fv_price.png?20210405" alt="当院の眼瞼下垂治療、保険適用の場合、両目43,200円">
         <p class="p-fv-prices__note_sp u-sp-display"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/fv_note_sp.png" alt="※切る手術(保険適応： 3割負担)の場合 ※上限負担金額は各保健資格内容により変動あり※初診料、再診料、術後の薬代などは別途費用となります。"> </p>
       </div>
       <!-- ./p-fv-prices -->
@@ -106,7 +106,7 @@
             <a href="<?php echo home_url( '/' ); ?>tel/ptosis.html" class="p-sp-tel__link" target="_blank">
             <p class="p-sp-tel__sub u-tc u-f-ryu">お電話でのお問い合わせ</p>
                 <p class="p-tel-text__left__number p-sp-tel__num u-f-ryu u-tc">0120-972-561</p>
-                <p class=" p-sp-tel__time u-tc">10:00～20:00</p>
+                <p class=" p-sp-tel__time u-tc">10:00～19:00</p>
                 <p class="c-btn-tel p-top-btn--tel">電話する</p>
             </a>
          </div>
@@ -114,10 +114,11 @@
         <nav class="p-nav-text" id="js-menu">
           <ul class="p-nav-links">
             <li class="p-nav-links__item"> <a href="#link-about" class="p-nav-links__link">眼瞼下垂とは </a> </li>
+              <li class="p-nav-links__item"> <a href="#link-flow" class="p-nav-links__link">施術の流れ・費用 </a> </li>
             <li class="p-nav-links__item"> <a href="#link-doctor" class="p-nav-links__link">医師紹介 </a> </li>
-            <li class="p-nav-links__item"> <a href="#link-flow" class="p-nav-links__link">費用・施術の流れ </a> </li>
-            <li class="p-nav-links__item"> <a href="<?php echo get_post_type_archive_link("faq"); ?>" class="p-nav-links__link">よくあるご質問 </a> </li>
+           <li class="p-nav-links__item"> <a href="#link-cal" class="p-nav-links__link">スケジュール </a> </li>
             <li class="p-nav-links__item"> <a href="#link-access" class="p-nav-links__link">アクセス</a> </li>
+            <li class="p-nav-links__item"> <a href="#link-faq" class="p-nav-links__link">よくあるご質問 </a> </li>
             <li class="p-nav-links__item"> <a href="https://souki-kai.or.jp/pdf/under18.pdf" class="p-nav-links__link" target="_blank">未成年同意書</a> </li>
           </ul>
         </nav>
@@ -129,7 +130,7 @@
             <p class="p-tel-text__left__number">0120-972-561</p>
           </div>
           </a>
-          <p class="p-top-tel__sub u-tc u-f-ryu">10:00～20:00</p>
+          <p class="p-top-tel__sub u-tc u-f-ryu">10:00～19:00</p>
         </div>
         <!-- ./p-top-tel -->
       </div>
@@ -154,11 +155,13 @@
     <nav class="p-header-nav" id="js-nav">
       <ul class="p-header-nav__list u-flex u-a-otf">
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-about" class="p-header-nav__link">眼瞼下垂とは</a> </li>
+          <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-flow" class="p-header-nav__link">施術の流れ・費用</a> </li>
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-doctor" class="p-header-nav__link">医師紹介</a> </li>
-        <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-flow" class="p-header-nav__link">費用・流れ</a> </li>
-        <li class="p-header-nav__item"> <a href="<?php echo get_post_type_archive_link("faq"); ?>" class="p-header-nav__link">よくあるご質問</a> </li>
+        <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-cal" class=p-header-nav__link">スケジュール </a> </li>
+
         <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-access" class="p-header-nav__link">アクセス</a> </li>
-        <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="p-header-nav__link" target="_blank">お問合せ</a> </li>
+
+        <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>#link-faq" class="p-header-nav__link">よくあるご質問</a> </li>   <li class="p-header-nav__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="p-header-nav__link" target="_blank">お問合せ</a> </li>
         <li class="p-header-nav__item"> <a href="https://souki-kai.or.jp/pdf/under18.pdf" class="p-header-nav__link" target="_blank">未成年同意書</a> </li>
       </ul>
     </nav>
