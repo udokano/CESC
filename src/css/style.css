@@ -368,6 +368,12 @@ h3 {
 }
 
 @media (max-width: 767px) {
+  .l-wrapper {
+    min-height: 100%;
+  }
+}
+
+@media (max-width: 767px) {
   .l-col02-fv {
     -ms-flex-flow: column;
     -webkit-box-direction: normal;
@@ -774,7 +780,7 @@ ARROW
   .c-hamburger {
     background-color: #2880c3;
     border-radius: 50%;
-    bottom: 45px;
+    bottom: 80px;
     display: block;
     height: 51px;
     position: fixed;
@@ -1012,10 +1018,14 @@ ARROW
 }
 
 .c-modal {
+  /* scrollにはしないことでスクロールの必要がないときはスクロールバーを表示させない */
+  -webkit-overflow-scrolling: touch;
   -webkit-transition: ease-in .3s;
   height: 100%;
   left: 0;
   opacity: 0;
+  overflow: hidden;
+  overflow-y: auto;
   position: fixed;
   top: 0;
   transition: ease-in .3s;
@@ -1028,7 +1038,8 @@ ARROW
   background-color: rgba(212, 233, 255, 0.68);
   height: 100%;
   left: 0;
-  position: absolute;
+  overflow: hidden;
+  position: fixed;
   top: 0;
   width: 100%;
   z-index: 9998;
@@ -1037,9 +1048,7 @@ ARROW
 .c-modal__inner {
   -webkit-transform: translate(-50%, -50%);
   background-color: #fff;
-  height: 110vw;
   left: 50%;
-  max-height: 698px;
   max-width: 600px;
   padding: 2.1rem;
   position: absolute;
@@ -1087,6 +1096,10 @@ ARROW
 .is-modal-open {
   opacity: 1;
   visibility: visible;
+}
+
+.is-of-hidden {
+  overflow: hidden;
 }
 
 .pagination {
@@ -2168,13 +2181,66 @@ PC or SP displey
   .p-top-logo {
     background-color: #fff;
     padding: 1.89rem 0;
+    position: relative;
   }
   .p-top-logo img {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 69%;
+    padding-right: 6.98rem;
+    width: 58%;
   }
+}
+
+/* ヘッダー用のハンバーガーメニュー追加 */
+.p-top-menu-switch {
+  -webkit-transform: translateY(-50%);
+  background-color: transparent;
+  height: 4.2125rem;
+  padding: .76rem 0;
+  position: absolute;
+  right: .68rem;
+  top: 44%;
+  transform: translateY(-50%);
+  width: 5.2125rem;
+}
+
+.p-top-menu-switch__inner-wrap {
+  height: 100%;
+  position: relative;
+}
+
+.p-top-menu-switch__inner-wrap::after {
+  -webkit-transform: translateX(-50%);
+  bottom: -1.78rem;
+  color: #2880c3;
+  content: "メニュー";
+  display: block;
+  font-size: .98rem;
+  left: 50%;
+  line-height: 1;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.p-top-menu-switch__inner {
+  padding: 0 1.25rem;
+}
+
+.p-top-menu-switch__inner span {
+  background-color: #2880c3;
+  border-radius: 0;
+  height: 3px;
+  width: 60%;
+}
+
+.p-top-menu-switch__inner span:nth-of-type(2) {
+  -webkit-transform: translate(-50%, -50%);
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .p-fv-cach {
@@ -2400,7 +2466,7 @@ PC or SP displey
 /* ナビ */
 .p-top-nav {
   background-color: #fff;
-  height: 745px;
+  height: 795px;
   padding: 26px 24px;
   width: 294px;
 }
@@ -2472,6 +2538,13 @@ PC or SP displey
   .p-top-btn--tel {
     margin: 0 auto;
     width: 52.5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-top-btn--mail {
+    background: #acacac url(../img/common/c_icon_top_mail.svg) no-repeat 89% 50%/2.18rem auto !important;
+    padding-right: 1.68rem;
   }
 }
 
@@ -2578,6 +2651,11 @@ PC or SP displey
 .is-menu-show .p-nav-links__item:nth-of-type(6) {
   -webkit-transition-delay: .6s;
   transition-delay: .6s;
+}
+
+.is-menu-show .p-nav-links__item:nth-of-type(7) {
+  -webkit-transition-delay: .7s;
+  transition-delay: .7s;
 }
 
 @media (max-width: 767px) {
@@ -2691,7 +2769,7 @@ PC or SP displey
     transition: ease-in .2s;
     visibility: hidden;
     width: 100%;
-    z-index: 5000;
+    z-index: 9000;
   }
 }
 
@@ -3425,6 +3503,8 @@ PC or SP displey
 @media (min-width: 768px) {
   .p-doctor-info__thumb {
     position: relative;
+    right: -21px;
+    top: -15px;
     z-index: 1000;
   }
 }
@@ -3508,7 +3588,7 @@ PC or SP displey
   display: -ms-flexbox;
   display: flex;
   justify-content: space-between;
-  max-width: 325px;
+  max-width: 287px;
   width: 82%;
 }
 
@@ -3524,8 +3604,10 @@ PC or SP displey
     -ms-flex-order: 3;
     -webkit-box-ordinal-group: 4;
     margin-bottom: 2.5rem;
+    max-width: 80%;
     order: 3;
     padding: 0 1.25rem;
+    width: 100%;
   }
 }
 
@@ -3560,6 +3642,96 @@ PC or SP displey
   }
 }
 
+.p-doctor-awards {
+  -ms-flex-pack: justify;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .p-doctor-awards {
+    left: 318px;
+    position: absolute;
+    top: 84px;
+    width: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards {
+    -ms-flex-order: 4;
+    -webkit-box-ordinal-group: 5;
+    margin: 0 auto 2.15rem;
+    order: 4;
+    width: 70%;
+  }
+}
+
+.p-doctor-awards__row {
+  -ms-flex-flow: column;
+  -ms-flex-pack: justify;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: justify;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  width: 48%;
+}
+
+.p-doctor-awards__row--right {
+  margin-right: .88rem;
+  width: 52%;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__row--right {
+    width: 39%;
+  }
+}
+
+.p-doctor-awards__row--left {
+  width: 49%;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__row--left {
+    width: 38%;
+  }
+}
+
+.p-doctor-awards__caption {
+  color: #bdbdbd;
+  font-size: .68rem;
+  margin-top: .55rem;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .p-doctor-awards__caption {
+    font-size: .88rem;
+  }
+}
+
+.p-doctor-awards__right-img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.p-doctor-awards__left-img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.p-doctor-awards__left-img:first-of-type {
+  padding-bottom: .42rem;
+}
+
 .p-doctor-desc-outer {
   width: 100%;
 }
@@ -3567,7 +3739,7 @@ PC or SP displey
 @media (min-width: 768px) {
   .p-doctor-desc-outer {
     position: absolute;
-    top: 855px;
+    top: 858px;
   }
 }
 
@@ -3583,7 +3755,7 @@ PC or SP displey
 
 @media (min-width: 768px) {
   .p-doctor-desc {
-    height: 300px;
+    height: 420px;
     position: relative;
     top: -370px;
   }
@@ -3592,7 +3764,7 @@ PC or SP displey
 @media (max-width: 767px) {
   .p-doctor-desc {
     background-color: #eaeef2;
-    padding: 4.2rem 0;
+    padding: 4.2rem 3%;
     padding-left: 6%;
     width: 97%;
   }
@@ -3642,10 +3814,17 @@ PC or SP displey
   }
 }
 
+@media (min-width: 768px) {
+  .p-doctor-desc__text-wrap {
+    padding-right: 1.85rem;
+  }
+}
+
 .p-doctor-desc__text {
   font-size: 14px;
   letter-spacing: .025em;
   line-height: 1.79;
+  margin-bottom: 1.1rem;
 }
 
 @media (max-width: 767px) {
@@ -3682,6 +3861,7 @@ PC or SP displey
   letter-spacing: 0.025em;
   line-height: 2.14;
   margin-bottom: 2.8rem;
+  margin-top: 4.8rem;
   max-width: 677px;
   width: 100%;
 }
@@ -3691,6 +3871,7 @@ PC or SP displey
     font-size: 1.18rem;
     line-height: 1.78;
     margin-bottom: 2.7rem;
+    margin-top: 2.1rem;
   }
 }
 
@@ -3974,4 +4155,8 @@ PC or SP displey
     font-size: .8rem;
     line-height: 1.28;
   }
+}
+
+.p-faq-top {
+  padding: 4.78rem 0;
 }

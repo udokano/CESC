@@ -121,7 +121,8 @@
 <!-- ./メインループ END -->
 
                 <p class="u-tc">
-                    <a href="<?php echo get_post_type_archive_link("faq"); ?>" class="c-btn-faq c-btn-faq--to_list p-btn-faq_to_list u-maru-gosic">ご質問一覧に戻る</a>
+                  <!--   <a href="<?php echo get_post_type_archive_link("faq"); ?>" class="c-btn-faq c-btn-faq--to_list p-btn-faq_to_list u-maru-gosic">ご質問一覧に戻る</a> -->
+                    <a href="<?php echo home_url( '/' ); ?>#link-faq" class="c-btn-faq c-btn-faq--to_list p-btn-faq_to_list u-maru-gosic">ご質問一覧に戻る</a>
                 </p>
 
 

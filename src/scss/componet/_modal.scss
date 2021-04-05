@@ -8,10 +8,16 @@
     opacity: 0;
     transition: ease-in .3s;
     z-index: 9999;
+    overflow: hidden;
+    overflow-y: auto; /* scrollにはしないことでスクロールの必要がないときはスクロールバーを表示させない */
+    -webkit-overflow-scrolling: touch;
 
     &__bg {
         background-color: rgba($color: #d4e9ff, $alpha: 0.68);
-        position: absolute;
+
+        //position: absolute;
+        position: fixed;
+        overflow: hidden;
         left: 0;
         top: 0;
         width: 100%;
@@ -22,8 +28,9 @@
     &__inner {
         width: 94%;
         max-width: 600px;
-        height: 110vw;
-        max-height: 698px;
+
+        //height: 110vw;
+        //max-height: 698px;
         background-color: #fff;
         padding: 2.1rem;
         position: absolute;
@@ -70,4 +77,8 @@
 .is-modal-open {
     visibility: visible;
     opacity: 1;
+}
+
+.is-of-hidden {
+    overflow: hidden;
 }
