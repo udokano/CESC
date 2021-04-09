@@ -185,3 +185,30 @@ $(function () {
   });
 
 });
+
+$(function () {
+
+
+//タブの処理を記述
+
+
+
+      $(".js-tab-btn").on("click", function () {
+        var winWidth = $(window).outerWidth();
+        var navUA = navigator.userAgent;
+         // 画面幅が768px以下、または UAがiPhone 又は Androidスマートフォンの時
+        if (winWidth <= 768 || navUA.indexOf('iPhone') > 0 || navUA.indexOf('Android') > 0 && navUA.indexOf('Mobile') > 0) {
+          $(this).toggleClass("is-btn-active");
+          $(this).next().toggleClass("is-tab-content");
+
+        } else {
+          $(this).addClass("is-btn-active");
+          $(".js-tab-btn").not(this).removeClass("is-btn-active");
+          $(".js-tab-btn").next().removeClass("is-tab-content");
+          $(this).next().addClass("is-tab-content");
+
+        }
+      });
+
+
+});

@@ -143,7 +143,95 @@
           ※初診料、再診料、術後の薬代などは別途費用となります。</p>
       </dd>
     </dl>
+     <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 眼瞼下垂（保険適用外） </dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪除去</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪移動</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">切らない眼瞼下垂術<br>（ミュラータッキング法）</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">眉下切開</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+        </table>
+        <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
     <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 二重形成</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">埋没2点留め</th>
+            <td class="p-price-table__td">99,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">埋没3点留め</th>
+            <td class="p-price-table__td">148,500円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">切開二重</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+     <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 下まぶた</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">脱脂</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">たるみ取り＋脱脂</th>
+            <td class="p-price-table__td">429,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">グラマラスライン形成</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+    <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> その他</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">目頭切開</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">目尻切開</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+   <!--  <dl class="c-col-desc-box p-ope-col-box">
       <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> その他の施術（税込） </dt>
       <dd class="c-col-desc-box__desc p-ope-col-box__desc">
         <table class="p-price-table">
@@ -156,7 +244,7 @@
             <td class="p-price-table__td">148,500円</td>
           </tr>
           <tr class="p-price-table__row">
-            <th class="p-price-table__th">切開法</th>
+            <th class="p-price-table__th">切開二重</th>
             <td class="p-price-table__td">330,000円</td>
           </tr>
            <tr class="p-price-table__row">
@@ -172,7 +260,7 @@
             <td class="p-price-table__td">385,000円</td>
           </tr>
            <tr class="p-price-table__row">
-            <th class="p-price-table__th">眼まぶた下垂(MT法)</th>
+            <th class="p-price-table__th">眼まぶた下垂<br>(ミュラータッキング法)</th>
             <td class="p-price-table__td">330,000円</td>
           </tr>
            <tr class="p-price-table__row">
@@ -192,10 +280,9 @@
             <td class="p-price-table__td">330,000円</td>
           </tr>
         </table>
-       <!--  <p class="u-tc p-table-note u-mairyo">※上限負担金額は各保健資格内容により変動あり<span class="u-pc-only">　　</span><br class="u-sp-only">
-          ※初診料、再診料、術後の薬代などは別途費用となります。</p> -->
+
       </dd>
-    </dl>
+    </dl> -->
   </div>
 </section>
 <div class="p-sp-only-actions u-sp-display">

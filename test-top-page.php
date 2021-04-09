@@ -158,11 +158,6 @@ Template Name: 確認用
 </div>
 </header>
 
-<!-- SP ONLY menu-swich -->
-
-<div class="c-hamburger" id="js-menu-trigger">
-  <div class="c-hamburger__inner"> <span class="c-hamburger__line"></span> <span class="c-hamburger__line"></span> <span class="c-hamburger__line"></span> </div>
-</div>
 
 
 
@@ -189,6 +184,105 @@ Template Name: 確認用
     </ul>
     <p class="p-center-desc u-sp-mb0">眼瞼下垂（がんけんかすい）とは、<br class="u-sp-only">
       まぶた（瞼）が開きにくくなる病気です。<br>先天的な原因や眼の病気、加齢、<br class="u-sp-only">過剰なまぶたへの刺激などで、まぶたを<br>持ち上げる筋肉（眼瞼挙筋）の機能が弱くなったり、<br class="u-sp-only">緩むことで眼瞼下垂が起こります。<br>眼瞼下垂は手術によって治療することができますので、<br class="u-sp-only">お悩みの方は一度ご相談ください。</p>
+
+      <div class="p-tabs">
+          <ul class="p-tabs__list">
+            <li class="p-tabs__nav js-tab-btn is-btn-active">まぶたの解剖（二重）</li>
+            <li class="p-tabs__content js-tab-content is-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb01.jpg" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+                <div class="p-tabs__desc-box">
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--blue">挙筋腱膜</dt>
+                    <dd class="p-tabs__data">
+                      瞼板に付着し、眼瞼挙筋の伸縮をダイレクトに<br class="">瞼板に伝える事で、まぶたを開閉しています。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--blue">眼窩隔膜</dt>
+                    <dd class="p-tabs__data">
+                      挙筋腱膜と連続する形で存在し眼窩脂肪の突出を抑え<br class="u-pc-only">上端は骨に付着しています。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--brown">ROOF</dt>
+                    <dd class="p-tabs__data">
+                      眼輪筋後脂肪、Retro-Orbicularis Oculi Fatの略。<br class="u-pc-only">眼輪筋および眼窩隔膜と密着しており、これ自体は非常に薄く<br class="u-pc-only">かつ繊維質であり、自然な表情の表現に必要不可欠。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--gold">眼窩脂肪</dt>
+                    <dd class="p-tabs__data">
+                     眼窩隔膜の深層に存在し、非常に柔らかい。
+                    </dd>
+                  </dl>
+                </div>
+                 <!-- ./desc-box -->
+              </div>
+              <!-- ./row -->
+            </li>
+            <li class="p-tabs__nav js-tab-btn">腱膜性眼瞼下垂症の解剖</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb02.jpg" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">加齢性眼瞼下垂症のほとんどは、このタイプ。<br class="">他にもコンタクトレンズや付けまつ毛の長期装用により<br class="">若年者でも起こりうる。</p>
+              </div>
+              <!-- ./row -->
+            </li>
+            <li class="p-tabs__nav js-tab-btn">厚ぼったいまぶた</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb03.jpg" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">上まぶたの厚ぼったさの原因のほとんどは眼窩脂肪の<br class="">突出によるもの。<br class="">ROOFも正常と比較すると厚みはあるが、眼窩脂肪の<br class="">突出ほど影響はしていない。</p>
+              </div>
+              <!-- ./row -->
+            </li>
+            <li class="p-tabs__nav js-tab-btn">一重と二重の解剖</li>
+            <li class="p-tabs__content js-tab-content">
+              <ul class="p-tabs__row p-tabs-inside-row">
+                <li class="p-tabs-inside-row__box">
+                    <div class="p-tabs-inside-row__thumb">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb04-01.jpg" alt="サムネイル">
+                    </div>
+                    <!-- ./thumb -->
+                    <p class="p-tabs-inside-row__desc">二重の場合、瞼板の上には眼輪筋が存在するが、一重の場合、眼窩脂肪が乗っかってきている。</p>
+                </li>
+                <li class="p-tabs-inside-row__box">
+                    <div class="p-tabs-inside-row__thumb">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb04-02.jpg" alt="サムネイル">
+                    </div>
+                    <!-- ./thumb -->
+                    <p class="p-tabs-inside-row__desc">皮膚と挙筋腱膜を結ぶ繊維が存在している。<br class="">開瞼（眼形挙筋収縮）と共に皮膚が奥へと引っ張られる為に二重のラインができる。</p>
+                </li>
+              </ul>
+              <!-- ./row -->
+            </li>
+              <li class="p-tabs__nav js-tab-btn">くぼみ目</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb05.jpg" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">くぼみ目は、眼窩脂肪の後退と皮膚〜挙筋腱膜の癒着が<br class="">原因で生じる。</p>
+              </div>
+              <!-- ./row -->
+            </li>
+          </ul>
+      </div>
   </div>
 </section>
 <section class="l-section p-top-trouble">
@@ -311,9 +405,97 @@ Template Name: 確認用
         <p class="u-tc p-table-note u-mairyo">※上限負担金額は各保健資格内容により変動あり<span class="u-pc-only">　　</span><br class="u-sp-only">
           ※初診料、再診料、術後の薬代などは別途費用となります。</p>
       </dd>
-</dl>
+  </dl>
 
- <dl class="c-col-desc-box p-ope-col-box">
+   <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 眼瞼下垂（保険適用外） </dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪除去</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪移動</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">切らない眼瞼下垂術<br>（ミュラータッキング法）</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">眉下切開</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+        </table>
+        <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+    <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 二重形成</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">埋没2点留め</th>
+            <td class="p-price-table__td">99,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">埋没3点留め</th>
+            <td class="p-price-table__td">148,500円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">切開二重</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+     <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 下まぶた</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">脱脂</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">たるみ取り＋脱脂</th>
+            <td class="p-price-table__td">429,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">グラマラスライン形成</th>
+            <td class="p-price-table__td">385,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+      <dl class="c-col-desc-box p-ope-col-box">
+      <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> その他</dt>
+      <dd class="c-col-desc-box__desc p-ope-col-box__desc">
+        <table class="p-price-table">
+           <tr class="p-price-table__row">
+            <th class="p-price-table__th">目頭切開</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+          <tr class="p-price-table__row">
+            <th class="p-price-table__th">目尻切開</th>
+            <td class="p-price-table__td">330,000円(税込)</td>
+          </tr>
+        </table>
+         <p class="u-tc p-table-note u-mairyo">
+          ※感染症採血、麻酔代は別途費用となります。
+        </p>
+      </dd>
+    </dl>
+   <!--  <dl class="c-col-desc-box p-ope-col-box">
       <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> その他の施術（税込） </dt>
       <dd class="c-col-desc-box__desc p-ope-col-box__desc">
         <table class="p-price-table">
@@ -326,7 +508,7 @@ Template Name: 確認用
             <td class="p-price-table__td">148,500円</td>
           </tr>
           <tr class="p-price-table__row">
-            <th class="p-price-table__th">切開法</th>
+            <th class="p-price-table__th">切開二重</th>
             <td class="p-price-table__td">330,000円</td>
           </tr>
            <tr class="p-price-table__row">
@@ -342,7 +524,7 @@ Template Name: 確認用
             <td class="p-price-table__td">385,000円</td>
           </tr>
            <tr class="p-price-table__row">
-            <th class="p-price-table__th">眼まぶた下垂(MT法)</th>
+            <th class="p-price-table__th">眼まぶた下垂<br>(ミュラータッキング法)</th>
             <td class="p-price-table__td">330,000円</td>
           </tr>
            <tr class="p-price-table__row">
@@ -362,10 +544,9 @@ Template Name: 確認用
             <td class="p-price-table__td">330,000円</td>
           </tr>
         </table>
-       <!--  <p class="u-tc p-table-note u-mairyo">※上限負担金額は各保健資格内容により変動あり<span class="u-pc-only">　　</span><br class="u-sp-only">
-          ※初診料、再診料、術後の薬代などは別途費用となります。</p> -->
+
       </dd>
-    </dl>
+    </dl> -->
 
 
   </div>
