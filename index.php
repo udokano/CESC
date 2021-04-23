@@ -20,6 +20,137 @@
     </ul>
     <p class="p-center-desc u-sp-mb0">眼瞼下垂（がんけんかすい）とは、<br class="u-sp-only">
       まぶた（瞼）が開きにくくなる病気です。<br>先天的な原因や眼の病気、加齢、<br class="u-sp-only">過剰なまぶたへの刺激などで、まぶたを<br>持ち上げる筋肉（眼瞼挙筋）の機能が弱くなったり、<br class="u-sp-only">緩むことで眼瞼下垂が起こります。<br>眼瞼下垂は手術によって治療することができますので、<br class="u-sp-only">お悩みの方は一度ご相談ください。</p>
+      <div class="p-tabs">
+          <ul class="p-tabs__list">
+            <li class="p-tabs__nav js-tab-btn is-btn-active">まぶたの解剖（二重）</li>
+            <li class="p-tabs__content js-tab-content is-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb01.jpg?20210412" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+                <div class="p-tabs__desc-box">
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--blue">挙筋腱膜</dt>
+                    <dd class="p-tabs__data">
+                      瞼板に付着し、眼瞼挙筋の伸縮をダイレクトに<br class="">瞼板に伝える事で、まぶたを開閉しています。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--blue">眼窩隔膜</dt>
+                    <dd class="p-tabs__data">
+                      挙筋腱膜と連続する形で存在し眼窩脂肪の突出を抑え<br class="u-pc-only">上端は骨に付着しています。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--brown">ROOF</dt>
+                    <dd class="p-tabs__data">
+                      眼輪筋後脂肪、Retro-Orbicularis Oculi Fatの略。<br class="u-pc-only">眼輪筋および眼窩隔膜と密着しており、これ自体は非常に薄く<br class="u-pc-only">かつ繊維質であり、ここを無理に除去すると、予定外重瞼線などの原因となる。
+                    </dd>
+                  </dl>
+                  <dl class="p-tabs__dl">
+                    <dt class="p-tabs__name p-tabs__name--gold">眼窩脂肪</dt>
+                    <dd class="p-tabs__data">
+                     眼窩隔膜の深層に存在し、これが多いと厚ぼったいまぶたとなり、逆に少ないとくぼみ目となる。
+                    </dd>
+                  </dl>
+                </div>
+                 <!-- ./desc-box -->
+              </div>
+              <!-- ./row -->
+            </li>
+            <li class="p-tabs__nav js-tab-btn">腱膜性眼瞼下垂症の解剖</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb02.jpg?20210412" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">加齢性眼瞼下垂症のほとんどは、このタイプ。<br class="">他にもコンタクトレンズや付けまつ毛の長期装用により<br class="">若年者でも起こりうる。<br class=""><br class="">この状態では眼瞼挙筋の伸縮を瞼板に伝えられないため、うまく瞼を開かせることができず、眼瞼下垂となる。<br class=""><br class="">治療としては、緩んだ挙筋腱膜を再度瞼板に固定する必要がある。</p>
+              </div>
+              <!-- ./row -->
+              <div class="p-tab-price__wrap">
+                  <dl class="p-tab-price">
+                    <dt class="p-tab-price__name">挙筋前転術（保険適用）</dt>
+                    <dd class="p-tab-price__data">43,200円（自己負担額）<!-- <p class="u-mairyo p-tab-price__note">※保険適応の場合・両目の場合</p> --></dd>
+                  </dl>
+              </div>
+            </li>
+            <li class="p-tabs__nav js-tab-btn">厚ぼったいまぶた</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb03.jpg?20210412" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">上まぶたの厚ぼったさの原因のほとんどは眼窩脂肪の<br class="">突出によるもの。<br class="">ROOFも正常と比較すると厚みはあるが、眼窩脂肪の<br class="">突出ほど影響はしていない。<br class=""><br class="">この場合、挙筋前転だけでは、不十分であり、<br class="">見た目の自然さ、再発のリスクを考慮すると、脂肪除去も必要となる。</p>
+              </div>
+              <!-- ./row -->
+               <div class="p-tab-price__wrap">
+                <dl class="p-tab-price">
+                <dt class="p-tab-price__name">挙筋前転＋上眼瞼脂肪除去</dt>
+                <dd class="p-tab-price__data">373,730円(税込)</dd>
+              </dl>
+              </div>
+            </li>
+            <li class="p-tabs__nav js-tab-btn">一重と二重の解剖</li>
+            <li class="p-tabs__content js-tab-content">
+              <ul class="p-tabs__row p-tabs-inside-row">
+
+                <li class="p-tabs-inside-row__box">
+                    <div class="p-tabs-inside-row__thumb">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb04-02.jpg?20210412" alt="サムネイル">
+                    </div>
+                    <!-- ./thumb -->
+                    <p class="p-tabs-inside-row__desc">皮膚と挙筋腱膜を結ぶ繊維が存在している。<br class="">開瞼（眼瞼挙筋収縮）と共に皮膚が奥へと引っ張られる為に二重のラインができる。</p>
+                </li>
+                 <li class="p-tabs-inside-row__box">
+                    <div class="p-tabs-inside-row__thumb">
+                        <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb04-01.jpg?20210412" alt="サムネイル">
+                    </div>
+                    <!-- ./thumb -->
+                    <p class="p-tabs-inside-row__desc">二重の場合、瞼板の上には眼輪筋が存在するが、一重の場合、眼窩脂肪が乗っかってきている。</p>
+                </li>
+              </ul>
+              <!-- ./row -->
+               <div class="p-tab-price__wrap">
+                <dl class="p-tab-price p-tab-price--row02">
+                <dt class="p-tab-price__name">埋没2点留め</dt>
+                <dd class="p-tab-price__data">99,000円(税込)</dd>
+              </dl>
+               <dl class="p-tab-price p-tab-price--row02">
+                <dt class="p-tab-price__name">埋没3点留め</dt>
+                <dd class="p-tab-price__data">148,500円(税込)</dd>
+              </dl>
+               <dl class="p-tab-price">
+                <dt class="p-tab-price__name">切開二重</dt>
+                <dd class="p-tab-price__data">330,000円(税込)</dd>
+              </dl>
+              </div>
+            </li>
+            <li class="p-tabs__nav js-tab-btn">くぼみ目</li>
+            <li class="p-tabs__content js-tab-content">
+              <div class="p-tabs__row">
+                <div class="p-tabs__thumb p-tabs__thumb--wide">
+                  <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/tab_content_thumb05.jpg?20210412" alt="サムネイル">
+                </div>
+                <!-- ./__thumb -->
+
+               <p class="p-tabs__text">くぼみ目は、眼窩脂肪の後退と皮膚〜挙筋腱膜の癒着が<br class="">原因で生じる。<br class=""><br class="">この場合、癒着の剥離と眼窩脂肪を前方に移動させる必要があります。</p>
+              </div>
+              <!-- ./row -->
+               <div class="p-tab-price__wrap">
+                <dl class="p-tab-price">
+                  <dt class="p-tab-price__name">挙筋前転＋上眼瞼脂肪移動</dt>
+                  <dd class="p-tab-price__data">373,730円(税込)</dd>
+                </dl>
+              </div>
+            </li>
+          </ul>
+      </div>
   </div>
 </section>
 <section class="l-section p-top-trouble">
@@ -149,11 +280,11 @@
         <table class="p-price-table">
            <tr class="p-price-table__row">
             <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪除去</th>
-            <td class="p-price-table__td">385,000円(税込)</td>
+            <td class="p-price-table__td">373,730円(税込)</td>
           </tr>
           <tr class="p-price-table__row">
             <th class="p-price-table__th">挙筋前転＋上眼瞼脂肪移動</th>
-            <td class="p-price-table__td">385,000円(税込)</td>
+            <td class="p-price-table__td">373,730円(税込)</td>
           </tr>
           <tr class="p-price-table__row">
             <th class="p-price-table__th">切らない眼瞼下垂術<br>（ミュラータッキング法）</th>
@@ -302,8 +433,8 @@
 <section class="l-section p-doctor" id="link-doctor">
   <div class="l-doctor-inner">
     <h2 class="c-ttl-border c-ttl-border--blue "> <span class="c-ttl-border__text">院長自らが施術を行います</span> </h2>
-    <div class="p-doctor-top-contents">
-      <div class="p-doctor-info">
+    <div class="p-doctor-top-contents u-align-top u-flex-wrap">
+      <div class="p-doctor-info u-align-top">
         <div class="p-doctor-name u-f-ryu">
           <p class="p-doctor-name__text">安居 剛</p>
           <p class="p-doctor-name__title">創輝会 理事  北日本統括医師<br>
@@ -319,7 +450,8 @@
       <p class="p-doctor-catch u-vertical__ttl c-gold02 u-f-ryu-toggle"> 形成外科専門医であり<span class="u-min">、</span>美容外科でもキャリアを<br>
         <span class="u-pc-only">　</span>持つ院長自らがカウンセリングから施術<span class="u-min">、</span><br>
         <span class="u-pc-only">　　</span>アフターフォローまで担当しております<span class="u-min">。</span> </p>
-      <div class="p-doctor-license">
+
+      <div class="p-doctor-license u-order04">
         <dl class="p-license-list">
           <dt class="p-license-list__ttl">■所属学会</dt>
           <dd class="p-license-list__text">日本形成外科学会</dd>
@@ -335,7 +467,7 @@
       </div>
       <!-- ./p-doctor-license -->
 
-      <div class="p-doctor-awards">
+      <div class="p-doctor-awards u-order05">
         <div class="p-doctor-awards__row p-doctor-awards__row--right">
           <div class="p-doctor-awards__right-img js-modal-open" data-target="js-modal-awards01">
           <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards01.jpg" alt="">
@@ -352,48 +484,29 @@
             <p class="p-doctor-awards__caption u-f-ryu">< 学位記 ></p>
         </div>
       </div>
+      <div class="c-row02-box p-doctor-career p-doctor-career-moved u-order03">
+        <ul class="p-doctor-career-list">
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2005年</span> <span class="p-doctor-career-list__text">札幌医科大学卒業。その後初期臨床研修を経て</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2007年</span> <span class="p-doctor-career-list__text">北海道大学医学部形成外科入局、道内の関連病院で研鑽を積む</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2012年</span> <span class="p-doctor-career-list__text">北海道大学大学院医学研究科博士課程入学</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2013年</span> <span class="p-doctor-career-list__text">日本形成外科学会専門医取得</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2016年</span> <span class="p-doctor-career-list__text">同大学院卒業、学位取得</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2016年</span> <span class="p-doctor-career-list__text">札幌斗南病院で形成外科医長として食道再建、乳房再建、眼瞼下垂、レーザー治療（シミ消し、タトゥー除去など）を含めた美容医療の部門を担当する。</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2018年</span> <span class="p-doctor-career-list__text">4月 医療法人社団 創輝会 入職</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2019年</span> <span class="p-doctor-career-list__text">3月 YAG BEAUTY CLINIC 札幌院院長就任</span> </li>
+          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2020年</span> <span class="p-doctor-career-list__text">6月 眼瞼下垂クリニック 新宿院長就任</span> </li>
+        </ul>
+      </div>
+      <!-- ./p-doctor-career -->
     </div>
     <!-- ./p-doctor-top-contents -->
 
 
-     <!-- modal  content01 -->
-    <div class="c-modal js-modal " id="js-modal-awards01">
-      <div class="c-modal__bg js-modal-close"></div>
-      <div class="c-modal__inner">
-        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards01_large.jpg" alt="モーダル写真01"> </div>
-        <!-- ./c-modal__thumb -->
-        <p class="c-modal__btn js-modal-close">閉じる</p>
-      </div>
-      <!-- ./c-modal__inner -->
-    </div>
-    <!-- ./c-modal -->
 
-     <!-- modal  content02 -->
-    <div class="c-modal js-modal " id="js-modal-awards02">
-      <div class="c-modal__bg js-modal-close"></div>
-      <div class="c-modal__inner">
-        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards02_large.jpg" alt="モーダル写真01"> </div>
-        <!-- ./c-modal__thumb -->
-        <p class="c-modal__btn js-modal-close">閉じる</p>
-      </div>
-      <!-- ./c-modal__inner -->
-    </div>
-    <!-- ./c-modal -->
 
-     <!-- modal  content03 -->
-    <div class="c-modal js-modal " id="js-modal-awards03">
-      <div class="c-modal__bg js-modal-close"></div>
-      <div class="c-modal__inner">
-        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards03_large.jpg" alt="モーダル写真01"> </div>
-        <!-- ./c-modal__thumb -->
-        <p class="c-modal__btn js-modal-close">閉じる</p>
-      </div>
-      <!-- ./c-modal__inner -->
-    </div>
-    <!-- ./c-modal -->
 
-    <div class="p-doctor-desc-outer">
-      <div class="p-doctor-desc">
+    <div class="p-doctor-desc-outer p-doc-desc-moved">
+      <div class="p-doctor-desc p-doc-desc-moved__in-outer">
         <div class="p-doctor-desc__bg"></div>
         <div class="p-doctor-desc__inner">
           <div class="p-doctor-desc__deep_inner">
@@ -413,20 +526,43 @@
     <!-- ./p-doctor-desc-outer -->
 
     <div class="l-inner">
-      <div class="c-row02-box p-doctor-career">
-        <ul class="p-doctor-career-list">
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2005年</span> <span class="p-doctor-career-list__text">札幌医科大学卒業。その後初期臨床研修を経て</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2007年</span> <span class="p-doctor-career-list__text">北海道大学医学部形成外科入局、道内の関連病院で研鑽を積む</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2012年</span> <span class="p-doctor-career-list__text">北海道大学大学院医学研究科博士課程入学</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2013年</span> <span class="p-doctor-career-list__text">日本形成外科学会専門医取得</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2016年</span> <span class="p-doctor-career-list__text">同大学院卒業、学位取得</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2016年</span> <span class="p-doctor-career-list__text">札幌斗南病院で形成外科医長として食道再建、乳房再建、眼瞼下垂、レーザー治療（シミ消し、タトゥー除去など）を含めた美容医療の部門を担当する。</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2018年</span> <span class="p-doctor-career-list__text">4月 医療法人社団 創輝会 入職</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2019年</span> <span class="p-doctor-career-list__text">3月 YAG BEAUTY CLINIC 札幌院院長就任</span> </li>
-          <li class="p-doctor-career-list__item"> <span class="p-doctor-career-list__year">2020年</span> <span class="p-doctor-career-list__text">6月 眼瞼下垂クリニック 新宿院長就任</span> </li>
-        </ul>
+
+
+        <div class="p-media">
+          <h3 class="p-media__ttl">メディア掲載</h3>
+          <p class="p-media__desc">週刊文春4月29日号(2021年4月22日発売)、<br class="">医療新聞デジタルに掲載されました。</p>
+
+          <ul class="p-media__list">
+            <li class="p-media__item">
+              <a href="<?php echo home_url( '/' ); ?>pdf/weekly_bunsun.pdf" class="" target="_blank">
+                <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/media_thumb01.jpg" alt="" class="p-media__thumb">
+                <p class="p-media__caption">< 週刊文春 ></p>
+              </a>
+            </li>
+            <li class="p-media__item js-modal-open" data-target="js-modal-video">
+              <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/media_thumb02.jpg" alt="" class="p-media__thumb">
+               <p class="p-media__caption">< 医療新聞デジタル ></p>
+            </li>
+          </ul>
       </div>
-      <!-- ./p-doctor-career -->
+      <!-- ./p-media -->
+
+
+    <!-- modal  content03 -->
+    <div class="c-modal js-modal " id="js-modal-video">
+      <div class="c-modal__bg js-modal-close"></div>
+      <div class="c-modal__inner">
+        <div class="c-modal__thumb c-modal__thumb--movie">
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/W5Gzc7e4Uhs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!-- ./c-modal__thumb -->
+        <p class="c-modal__btn js-modal-close">閉じる</p>
+      </div>
+      <!-- ./c-modal__inner -->
+    </div>
+    <!-- ./c-modal -->
+
+
 
       <div class="p-doctor-cal" id="link-cal"> <?php echo do_shortcode('[xo_event_calendar months="2" holidays="ope,sapporo,sendai,ike" navigation="false"]'); ?> </div>
 
@@ -437,6 +573,9 @@
   </div>
   <!-- ./doctor-inner   -->
 </section>
+
+
+
 <div class="p-clinic-desc u-bg-cover">
   <div class="l-inner p-clinic-desc__inner">
     <div class="u-sp-only"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/pr_thumb_sp.jpg" alt="サムネイル"> </div>
@@ -495,6 +634,43 @@
         <i class="p-access-thumbs__icon"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/access_thumb_icon02.png" alt="アイコン"> </i>
       </li>
     </ul>
+
+      <!-- modal  content01 -->
+    <div class="c-modal js-modal " id="js-modal-awards01">
+      <div class="c-modal__bg js-modal-close"></div>
+      <div class="c-modal__inner">
+        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards01_large.jpg" alt="モーダル写真01"> </div>
+        <!-- ./c-modal__thumb -->
+        <p class="c-modal__btn js-modal-close">閉じる</p>
+      </div>
+      <!-- ./c-modal__inner -->
+    </div>
+    <!-- ./c-modal -->
+
+     <!-- modal  content02 -->
+    <div class="c-modal js-modal " id="js-modal-awards02">
+      <div class="c-modal__bg js-modal-close"></div>
+      <div class="c-modal__inner">
+        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards02_large.jpg" alt="モーダル写真01"> </div>
+        <!-- ./c-modal__thumb -->
+        <p class="c-modal__btn js-modal-close">閉じる</p>
+      </div>
+      <!-- ./c-modal__inner -->
+    </div>
+    <!-- ./c-modal -->
+
+     <!-- modal  content03 -->
+    <div class="c-modal js-modal " id="js-modal-awards03">
+      <div class="c-modal__bg js-modal-close"></div>
+      <div class="c-modal__inner">
+        <div class="c-modal__thumb"> <img src="<?php echo get_template_directory_uri(); ?>/src/img/top/awards03_large.jpg" alt="モーダル写真01"> </div>
+        <!-- ./c-modal__thumb -->
+        <p class="c-modal__btn js-modal-close">閉じる</p>
+      </div>
+      <!-- ./c-modal__inner -->
+    </div>
+    <!-- ./c-modal -->
+
     <!-- modal  content01 -->
     <div class="c-modal js-modal" id="js-modal-01">
       <div class="c-modal__bg js-modal-close"></div>

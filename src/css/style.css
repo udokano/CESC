@@ -2810,12 +2810,12 @@ PC or SP displey
 }
 
 .p-header-nav a {
-  font-size: .88rem;
+  font-size: .74rem;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1300px) {
   .p-header-nav a {
-    font-size: 1.18vw;
+    font-size: 1.02vw;
   }
 }
 
@@ -4312,12 +4312,12 @@ PC or SP displey
   -webkit-transition: ease-out .35s opacity;
   background-color: #fff;
   border: 1px solid #3a78a5;
-  height: 531px;
+  height: 571px;
   height: 0;
   left: 0;
   opacity: 0;
   overflow: hidden;
-  padding: 2.5625rem 2.3125rem;
+  padding: 2.8625rem 2.3125rem;
   position: absolute;
   top: 61px;
   transition: ease-out .35s opacity;
@@ -4334,7 +4334,7 @@ PC or SP displey
 }
 
 .p-tabs__content.is-tab-content {
-  height: 531px;
+  height: auto;
   opacity: 1;
   overflow: visible;
   visibility: visible;
@@ -4516,4 +4516,179 @@ PC or SP displey
     font-size: 1.38rem;
     width: 52%;
   }
+}
+
+.p-tab-price {
+  border: 1px solid #ff9bab;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 55px;
+  letter-spacing: 0.05em;
+  width: 100%;
+}
+
+.p-tab-price__wrap {
+  margin: 2.95rem auto 0;
+  max-width: 740px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .p-tab-price__wrap {
+    margin-top: 1.78rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-tab-price {
+    height: 12vw;
+  }
+}
+
+.p-tab-price--row02 {
+  border-bottom: none;
+}
+
+.p-tab-price__name, .p-tab-price__data {
+  -ms-flex-align: center;
+  -ms-flex-flow: column;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+  justify-content: center;
+  padding: 1.48rem 1.08rem;
+  width: 50%;
+}
+
+.p-tab-price__name {
+  background-color: #ff9bab;
+  color: #fff;
+  font-size: 1.39rem;
+}
+
+@media (max-width: 767px) {
+  .p-tab-price__name {
+    font-size: 1.4rem;
+    line-height: 1.24;
+  }
+}
+
+.p-tab-price__data {
+  background-color: #f4f4f4;
+  font-size: 1.29rem;
+}
+
+@media (max-width: 767px) {
+  .p-tab-price__data {
+    font-size: 1.4rem;
+  }
+}
+
+.p-tab-price:not(:first-of-type) {
+  border-top: 1px solid #fff;
+}
+
+.p-tab-price__note {
+  font-size: .7rem;
+}
+
+.p-doc-desc-moved {
+  position: static;
+}
+
+.p-doc-desc-moved__in-outer {
+  top: 0;
+}
+
+.p-doctor-career-moved {
+  margin: 0 auto;
+  max-width: 1000px;
+  width: 94%;
+}
+
+@media (min-width: 768px) {
+  .p-doctor-career-moved {
+    background-color: transparent;
+    display: block !important;
+    margin-top: -370px;
+    position: relative;
+  }
+}
+
+@media (max-width: 767px) {
+  .p-doctor-career-moved {
+    margin-bottom: 1.15rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-order03 {
+    -ms-flex-order: 3;
+    -webkit-box-ordinal-group: 4;
+    order: 3;
+  }
+  .u-order04 {
+    -ms-flex-order: 4;
+    -webkit-box-ordinal-group: 5;
+    order: 4;
+  }
+  .u-order05 {
+    -ms-flex-order: 5;
+    -webkit-box-ordinal-group: 6;
+    order: 5;
+  }
+}
+
+.p-media {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", "YuMincho", "Yu Mincho", "游明朝体", "ＭＳ Ｐ明朝", "MS PMincho", serif;
+  letter-spacing: .0075em;
+  margin-bottom: 2.25rem;
+  margin-top: 2.25rem;
+  text-align: center;
+}
+
+.p-media__ttl {
+  color: #2A80C3;
+  font-size: 2.35rem;
+  margin-bottom: 1.33rem;
+}
+
+.p-media__desc {
+  font-size: 1.24rem;
+}
+
+.p-media__list {
+  margin-top: 3.05rem;
+}
+
+.p-media__item {
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0;
+  margin: 0 .82rem;
+  max-width: 280px;
+  width: 44%;
+}
+
+.p-media__item:hover {
+  opacity: 0.8;
+}
+
+.p-media__thumb {
+  display: block;
+}
+
+.p-media__caption {
+  color: #b7b7b7;
+  font-size: .74rem;
+  margin-top: .57rem;
 }
