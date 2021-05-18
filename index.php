@@ -253,7 +253,13 @@
         </ol>
       </dd>
     </dl>
-    <dl class="c-col-desc-box p-ope-col-box">
+
+    <a href="<?php echo home_url( '/' ); ?>?page_id=112" class="c-btn-basic p-btn-price">料金を詳しく見る</a>
+
+    <style>
+
+    /*
+      <dl class="c-col-desc-box p-ope-col-box">
       <dt class="c-col-desc-box__ttl c-col-desc-box__ttl--bg_blue p-ope-col-box__ttl"> 保険適用による眼瞼下垂の手術費用 </dt>
       <dd class="c-col-desc-box__desc p-ope-col-box__desc">
         <table class="p-price-table">
@@ -414,6 +420,13 @@
 
       </dd>
     </dl> -->
+    */
+
+
+    </style>
+
+
+
   </div>
 </section>
 <div class="p-sp-only-actions u-sp-display">
