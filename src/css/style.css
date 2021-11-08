@@ -2651,6 +2651,19 @@ PC or SP displey
   }
 }
 
+.p-top-note {
+  color: red;
+  font-size: 1.39rem;
+  margin-bottom: 1.35rem;
+  margin-top: .98rem;
+  text-align: center;
+}
+
+.p-top-note span {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
 .p-top-btn {
   height: 74px;
   letter-spacing: 0.05em;

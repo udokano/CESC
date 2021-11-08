@@ -434,7 +434,6 @@
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-top-btn p-top-btn--cal" target="_blank">カウンセリング予約</a> </li>
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
   </ul>
-  	<p class="u-sp-display p-top-note">ご予約が完了の場合は必ず<span>『ご予約完了メール』</span>が届きます。<br class="">届かない場合は直接当院にお電話でお問い合わせ願います。</p>
    <a href="<?php echo home_url( '/' ); ?>tel/ptosis.html" class="p-sp-tel__link p-sp-tel__link--pt02 u-tc" target="_blank">
             <p class="p-sp-tel__sub u-tc u-f-ryu">お電話でのお問い合わせ</p>
                 <p class="p-tel-text__left__number p-sp-tel__num u-f-ryu u-tc">0120-972-561</p>
@@ -604,7 +603,6 @@
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>reserve/kanto.html" class="c-btn-cal p-top-btn p-top-btn--cal" target="_blank">カウンセリング予約</a> </li>
     <li class="p-top-conversion__item"> <a href="<?php echo home_url( '/' ); ?>contact/contact.html" class="c-btn-mail p-top-btn p-top-btn--mail" target="_blank">お問合わせ</a> </li>
   </ul>
-  	<p class="u-sp-display p-top-note">ご予約が完了の場合は必ず<span>『ご予約完了メール』</span>が届きます。<br class="">届かない場合は直接当院にお電話でお問い合わせ願います。</p>
   <a href="<?php echo home_url( '/' ); ?>tel/ptosis.html" class="p-sp-tel__link p-sp-tel__link--pt02 u-tc" target="_blank">
             <p class="p-sp-tel__sub u-tc u-f-ryu">お電話でのお問い合わせ</p>
                 <p class="p-tel-text__left__number p-sp-tel__num u-f-ryu u-tc">0120-972-561</p>

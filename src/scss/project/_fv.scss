@@ -293,6 +293,19 @@
     }
 }
 
+.p-top-note {
+    text-align: center;
+    font-size: 1.39rem;
+    color: red;
+    margin-top: .98rem;
+    margin-bottom: 1.35rem;
+
+    span {
+        text-decoration: underline;
+        font-weight: 600;
+    }
+}
+
 .p-top-btn {
     height: 74px;
     line-height: 74px;
